@@ -23,24 +23,97 @@
             border-bottom: 1px dashed black ;
 
         }
+        
         p{
             line-height:30px;
+            color: #231F20; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 9pt; margin:0pt;
          }
-        h4{
+         h5{
+            color: black; font-family:Arial, sans-serif; font-style: normal; font-weight: bold; text-decoration: none; font-size: 9pt;
+         }
+         h1{
+            color: #231F20; font-family:Arial, sans-serif; font-style: normal; font-weight: bold; text-decoration: none; font-size: 18pt;
+         }
+         
+        h4,h3,h2{
             /* line-height:50px; */
             flex-wrap: wrap;
             gap: 2.5rem;
             display: flex;
+            color: #231F20; font-family:Arial, sans-serif; font-style: normal; font-weight: bold; text-decoration: none; font-size: 11pt;
+         }
+         strong{
+            color: #231F20; font-family:Arial, sans-serif; font-style: normal; font-weight: bold; text-decoration: none; font-size: 11pt;
+        }
+         @media (max-width:1500px){
+            html{
+                font-size:55%;
+                width: 100%;
+                height: 100%;
+                -webkit-text-stroke: 0.05em transparent;
+            }
+            .header{
+                padding: 2rem;
+                width: 100%;
+                height: 100%;
+                -webkit-text-stroke: 0.05em transparent;
+            }
+            .forms{
+                padding: 2rem;
+                width: 100%;
+                height: 100%;
+                -webkit-text-stroke: 0.05em transparent;
+            }
+         }
+         @media(max-width:991px){
+            .header{
+                padding: 2rem;
+                width: 100%;
+                height: 100%;
+                -webkit-text-stroke: 0.05em transparent;
+            }
+            .forms{
+                padding: 2rem;
+                width: 100%;
+                height: 100%;
+                -webkit-text-stroke: 0.05em transparent;
+            }
+         }
+         @media (max-width:768px){
+            .header{
+                padding: 2rem;
+                width: 100%;
+                height: 100%;   
+            }
+            .forms{
+                padding: 2rem;
+                width: 100%;
+                height: 100%;
+            }
+
+         }
+         @media (max-width:600px){
+            .header{
+                padding: 2rem;
+                width: 100%;
+                height: 100%;   
+            }
+            .forms{
+                padding: 2rem;
+                width: 100%;
+                height: 100%;
+            }
+
          }
     </style>
 </head>
-<body>
+<body >
     <section style="border: 10px;">
     
-        <form style="padding-left: 15%;padding-right: 15%;"> 
+        <form class="forms" style="padding-left:20%;padding-right:20%; margin: auto;"> 
         
             <div>
-                <div>
+                <div class="header">
                     <header>
                         <div style=" padding-left:10px ; float:left;">
                         
@@ -61,58 +134,58 @@
                     
                     </header>
                 
-                    </div>
+                    
                      <hr style=" border: 2px solid black;background-color: black; width: 100%;">
                 </div>
                 <div>
-                    <p>l/We hereby make application to rent<input type="text"style="width: 785px;">from the  <input type="text"style="width: 250px;">  at a monthly rental of $ <input type="text"style="width: 560px;"> to become due and payable in advance on the <input type="text"> day of each and every month during my tenancy.</p>
-                    <p><strong>1.  Applicant #1  </strong> <input type="number"style="width: 250px;">  Date of birth <input type="text"style="width: 200px;">  SIN No. (Optional)   <input type="number"style="width: 250px;"> </p><p style="text-indent:15px;">  Drivers License No  <input type="number"style="width: 350px;">  Occupation <input type="text"style="width: 457px;"> </p>
-                    <p><strong >2.  Applicant #2</strong> <input type="number"style="width: 250px;"> Date of birth <input type="text"style="width: 200px;">  SIN No. (Optional)   <input type="number"style="width: 250px;">  </p><p style="text-indent:15px;"> Drivers License No  <input type="number"style="width: 350px;">  Occupation <input type="text"style="width: 457px;"> </p>
-                    <p><strong>3.  Other Occupants:</strong>Name <input type="text"style="width: 250px;"> Relationship  <input type="text"style="width: 250px;">  Age <input type="number"style="width: 200px;"></p>
-                        <p style="text-indent:140px;"> Name <input type="text"style="width: 250px;"> Relationship  <input type="text"style="width: 250px;">  Age <input type="number"style="width: 200px;"></p>
-                        <p style="text-indent:140px;">Name <input type="text"style="width: 250px;"> Relationship  <input type="text"style="width: 250px;">  Age <input type="number"style="width: 200px;"></p>
-                        <p> Do you have any pets? <input type="text"> If so, describe   <input type="text"style="width: 600px;">  Why are you vacating your present place of residence? <input type="text"style="width: 650px;">
-                    </p>
+                    <p>l/We hereby make application to rent<input type="text"style="width: 700px;">from the  <input type="text"style="width: 150px;">day of <input type="text"style="width: 150px;">20<input type="text"style="width: 60px;"> at a monthly rental of $ <input type="text"style="width: 300px;"> to become due and payable in advance on the <input type="text"> day of each and every month during my tenancy.</p>
+                    <p><strong>1.  Applicant #1  </strong> <input type="number"style="width: 250px;">  Date of birth <input type="text"style="width: 200px;">  SIN No. (Optional)   <input type="number"style="width: 150px;"> </p><p style="text-indent:15px;">  Drivers License No  <input type="number"style="width: 250px;">  Occupation <input type="text"style="width: 450px;"> </p>
+                    <p><strong >2.  Applicant #2 </strong> <input type="number"style="width: 250px;">  Date of birth <input type="text"style="width: 200px;">  SIN No. (Optional)   <input type="number"style="width: 150px;"> </p><p style="text-indent:15px;">  Drivers License No  <input type="number"style="width: 250px;">  Occupation <input type="text"style="width: 450px;"> </p>
+                    <p><strong>3.  Other Occupants:</strong>Name <input type="text"style="width: 250px;"> Relationship  <input type="text"style="width: 200px;">  Age <input type="number"style="width: 150px;"></p>
+                        <p style="text-indent:140px;"> Name <input type="text"style="width: 250px;"> Relationship  <input type="text"style="width: 200px;">  Age <input type="number"style="width: 150px;"></p>
+                        <p style="text-indent:140px;">Name <input type="text"style="width: 250px;"> Relationship  <input type="text"style="width: 200px;">  Age <input type="number"style="width: 150px;"></p>
+                        <p style="text-indent:15px;"> Do you have any pets? <input type="text"> If so, describe   <input type="text"style="width: 500px;"></p>
+                        <p style="text-indent:15px;">  Why are you vacating your present place of residence? <input type="text"style="width: 580px;"></p>
                 </div>
                 <div>
                     <div style="display: flex;flex-wrap: wrap;gap: 4rem;">
                         <div >
                             <h4>APPLICANT #1 LAST TWO PLACES OF RESIDENCE </h4>
-                            <span><h5>Present Address <input type="text"style="width: 355px;"></h5><p>From <input type="text"style="width: 190px;"> To <input type="text"style="width: 190px;"><br>
-                                Name of Landlord <input type="text"style="width: 325px;"><br> Telephone <input type="number"style="width: 375px;"></p><span><br><span><h5> Prior Address<input type="text"style="width: 370px;"> </h5>
-                                <p><br>From <input type="text"style="width: 190px;"> To <input type="text"style="width: 190px;"><br>
-                                Name of Landlord <input type="text"style="width: 325px;"><br> Telephone <input type="number"style="width: 375px;"></p></span>
+                            <h5>Present Address <input type="text"style="width: 300px;"></h5><p>From <input type="text"style="width: 180px;"> To <input type="text"style="width: 180px;"><br>
+                                Name of Landlord <input type="text"style="width: 312px;"><br> Telephone <input type="number"style="width: 353px;"></p><h5> Prior Address<input type="text"style="width: 320px;"> </h5>
+                                <p>From <input type="text"style="width: 180px;"> To <input type="text"style="width: 180px;"><br>
+                                    Name of Landlord <input type="text"style="width: 312px;"><br> Telephone <input type="number"style="width: 353px;"></p>
                         </div>
-                        <div>
+                        <div >
                             <h4>APPLICANT #2 LAST TWO PLACES OF RESIDENCE </h4>
-                            <span><h5>Present Address <input type="text"style="width: 355px;"></h5><p>From <input type="text"style="width: 190px;"> To <input type="text"style="width: 190px;"><br>
-                                Name of Landlord <input type="text"style="width: 325px;"><br> Telephone <input type="number"style="width: 375px;"></p><span><br><span><h5> Prior Address<input type="text"style="width: 370px;"> </h5>
-                                <p><br>From <input type="text"style="width: 190px;"> To <input type="text"style="width: 190px;"><br>
-                                Name of Landlord <input type="text"style="width: 325px;"><br> Telephone <input type="number"style="width: 375px;"></p></span>
+                            <h5>Present Address <input type="text"style="width: 300px;"></h5><p>From <input type="text"style="width: 180px;"> To <input type="text"style="width: 180px;"><br>
+                                Name of Landlord <input type="text"style="width: 312px;"><br> Telephone <input type="number"style="width: 353px;"></p><h5> Prior Address<input type="text"style="width: 320px;"> </h5>
+                                <p>From <input type="text"style="width: 180px;"> To <input type="text"style="width: 180px;"><br>
+                                    Name of Landlord <input type="text"style="width: 312px;"><br> Telephone <input type="number"style="width: 353px;"></p>
                         </div>
                     </div>
                     <div style="display: flex;flex-wrap: wrap;gap: 4rem;">
                         <div>
                             <h4>APPLICANT #1 PRESENT EMPLOYMENT</h4>
-                            <p>Employe <input type="text"style="width: 380px;"><br>
-                                Business address <input type="text"style="width: 335px;"><br>
-                                Business telephone <input type="number"style="width: 325px;"><br>
-                                Position held <input type="text"style="width: 350px;"><br>
-                                Length of employment <input type="text"style="width: 300px;"><br>
-                                Name of supervisor <input type="text"style="width: 325px;"><br>
-                                Current salary range: Monthly $ <input type="number"style="width: 250px;">
+                            <p>Employe <input type="text"style="width: 362px;"><br>
+                                Business address <input type="text"style="width: 313px;"><br>
+                                Business telephone <input type="number"style="width: 303px;"><br>
+                                Position held <input type="text"style="width: 335px;"><br>
+                                Length of employment <input type="text"style="width: 285px;"><br>
+                                Name of supervisor <input type="text"style="width: 303px;"><br>
+                                Current salary range: Monthly $ <input type="number"style="width: 238px;">
                             </p>
 
                         </div>
                         <div>
                             <h4>APPLICANT #2 PRESENT EMPLOYMENT</h4>
-                            <p>Employe <input type="text"style="width: 380px;"><br>
-                                Business address <input type="text"style="width: 335px;"><br>
-                                Business telephone <input type="number"style="width: 325px;"><br>
-                                Position held <input type="text"style="width: 360px;"><br>
-                                Length of employment <input type="text"style="width: 300px;"><br>
-                                Name of supervisor <input type="text"style="width: 325px;"><br>
-                                Current salary range: Monthly $ <input type="number"style="width: 250px;">
+                            <p>Employe <input type="text"style="width: 362px;"><br>
+                                Business address <input type="text"style="width: 313px;"><br>
+                                Business telephone <input type="number"style="width: 303px;"><br>
+                                Position held <input type="text"style="width: 335px;"><br>
+                                Length of employment <input type="text"style="width: 285px;"><br>
+                                Name of supervisor <input type="text"style="width: 303px;"><br>
+                                Current salary range: Monthly $ <input type="number"style="width: 238px;">
                             </p>
 
                         </div>
@@ -125,76 +198,76 @@
         </form> 
     
     </section>
-    <section style="border: 10px;height: 100%;">
+    <section style="border: 10px;">
     
-        <form style="padding-left: 15%; padding-right: 15%;">
+        <form class="forms" style="padding-left:20%;padding-right:20%;">
         
             <div>
                 <div style="display: flex;flex-wrap: wrap;gap: 4rem;">
                     <div>
                         <h4>APPLICANT #1 PRESENT EMPLOYMENT</h4>
-                        <p>Employe <input type="text"style="width: 380px;"><br>
-                            Business address <input type="text"style="width: 335px;"><br>
-                            Business telephone <input type="number"style="width: 325px;"><br>
-                            Position held <input type="text"style="width: 360px;"><br>
-                            Length of employment <input type="text"style="width: 300px;"><br>
-                            Name of supervisor <input type="text"style="width: 325px;"><br>
-                            Salary range: $ <input type="number"style="width: 350px;">
-                        </p>
+                        <p>Employe <input type="text"style="width: 362px;"><br>
+                            Business address <input type="text"style="width: 313px;"><br>
+                            Business telephone <input type="number"style="width: 303px;"><br>
+                            Position held <input type="text"style="width: 335px;"><br>
+                            Length of employment <input type="text"style="width: 285px;"><br>
+                            Name of supervisor <input type="text"style="width: 303px;"><br>
+                            Salary range: $ <input type="number"style="width: 324px;">
+                        </p><br>
 
                     </div>
                     <div>
                         <h4>APPLICANT #2 PRESENT EMPLOYMENT</h4>
-                        <p>Employe <input type="text"style="width: 380px;"><br>
-                            Business address <input type="text"style="width: 335px;"><br>
-                            Business telephone <input type="number"style="width: 325px;"><br>
-                            Position held <input type="text"style="width: 360px;"><br>
-                            Length of employment <input type="text"style="width: 300px;"><br>
-                            Name of supervisor <input type="text"style="width: 325px;"><br>
-                            Salary range: $ <input type="number"style="width: 350px;">
-                        </p>
+                        <p>Employe <input type="text"style="width: 362px;"><br>
+                            Business address <input type="text"style="width: 313px;"><br>
+                            Business telephone <input type="number"style="width: 303px;"><br>
+                            Position held <input type="text"style="width: 335px;"><br>
+                            Length of employment <input type="text"style="width: 285px;"><br>
+                            Name of supervisor <input type="text"style="width: 303px;"><br>
+                            Salary range: $ <input type="number"style="width: 324px;">
+                        </p><br>
 
                     </div>
                 </div>
                 <div>
-                    <p><strong>Name of Bank</strong> <input type="text"style="width: 200px;">  Branch <input type="text">  Address <input type="text"style="width: 500px;"> Chequing Account # <input type="text"style="width: 350px;">  Savings Account # <input type="text"style="width: 350px;"></p>
+                    <p><strong>Name of Bank</strong> <input type="text"style="width: 200px;">  Branch <input type="text"style="width: 140px;">  Address <input type="text"style="width: 350px;"> Chequing Account # <input type="text"style="width: 300px;">  Savings Account # <input type="text"style="width: 370px;"></p>
                 </div>
                 <div>
                     <h4>FINANCIAL OBLIGATIONS</h4>
-                    <p>Payments to <input type="text"style="width: 600px;"> Amount: $ <input type="number"style="width: 200px;"></p>
-                    <p>Payments to <input type="text"style="width: 600px;"> Amount: $ <input type="number"style="width: 200px;"></p>
+                    <p>Payments to <input type="text"style="width: 550px;"> Amount: $ <input type="number"style="width: 200px;"></p>
+                    <p>Payments to <input type="text"style="width: 550px;"> Amount: $ <input type="number"style="width: 200px;"></p>
                 </div>
                 <div>
                     <h4>PERSONAL REFERENCES</h4>
-                    <p>Name <input type="text"style="width: 250px;"> Address <input type="text"style="width: 650px;"> Telephone: <input type="number"style="width: 200px;"> Length of Acquaintance <input type="text"style="width: 200px;"> Occupation <input type="text"style="width: 300px;"></p>
-                    <p>Name <input type="text"style="width: 250px;"> Address <input type="text"style="width: 650px;"> Telephone: <input type="number"style="width: 200px;"> Length of Acquaintance <input type="text"style="width: 200px;"> Occupation <input type="text"style="width: 300px;"></p>
+                    <p>Name <input type="text"style="width: 250px;"> Address <input type="text"style="width: 550px;"> Telephone: <input type="number"style="width: 200px;"> Length of Acquaintance <input type="text"style="width: 165px;"> Occupation <input type="text"style="width: 250px;"></p>
+                    <p>Name <input type="text"style="width: 250px;"> Address <input type="text"style="width: 550px;"> Telephone: <input type="number"style="width: 200px;"> Length of Acquaintance <input type="text"style="width: 165px;"> Occupation <input type="text"style="width: 250px;"></p>
                 </div>
                 <div>
                     <h4>AUTOMOBILE(S)</h4>
-                    <p>Make <input type="text"> Model <input type="text"> Year <input type="text"> Licence No <input type="text"></p>
-                    <p>Make <input type="text"> Model <input type="text"> Year <input type="text"> Licence No <input type="text"></p>
+                    <p>Make <input type="text"> Model <input type="text"style="width: 200px;"> Year <input type="text"> Licence No <input type="text"></p>
+                    <p>Make <input type="text"> Model <input type="text"style="width: 200px;"> Year <input type="text"> Licence No <input type="text"></p><br>
                 </div>
                 <div>
-                    <p style="line-height: 20px;">The Applicant consents to the collection, use and disclosure of the Applicant’s personal information by the Landlord and/or agent of the Landlord, from<br>
-                         time to time, for the purpose of determining the creditworthiness of the Applicant for the leasing, selling or nancing of the premises or the real property,<br>
-                          or making such other use of the personal information as the Landlord and/or agent of the Landlord deems appropriate.</p>
+                    <p style="line-height: 20px;">The Applicant consents to the collection, use and disclosure of the Applicant’s personal information by the Landlord and/or agent of the Landlord, from
+                         time to time,<br> for the purpose of determining the creditworthiness of the Applicant for the leasing, selling or nancing of the premises or the real property,
+                          or making such other<br> use of the personal information as the Landlord and/or agent of the Landlord deems appropriate.</p><br>
                 </div>
                 <div>
-                    <p style="line-height: 20px;">The  Applicant  represents  that  all  statements  made  above  are  true  and  correct. <strong> The  Applicant  is  hereby  notied  that  a  consumer  report<br>
-                         containing credit and/or personal information may be referred to in connection with this rental.</strong> The Applicant authorizes the verification <br>
-                         of the information contained in this application and information obtained from personal references. This application is not a Rental or Lease Agreement. In<br>
-                          the event that this application is not accepted, any deposit submitted by the Applicant shall be returned</p>
+                    <p style="line-height: 20px;">The  Applicant  represents  that  all  statements  made  above  are  true  and  correct. <strong> The  Applicant  is  hereby  notied  that  a  consumer  report
+                         containing <br>credit and/or personal information may be referred to in connection with this rental.</strong> The Applicant authorizes the verification 
+                         of the <br>information contained in this application and information obtained from personal references. This application is not a Rental or Lease Agreement. In
+                          the event that <br>this application is not accepted, any deposit submitted by the Applicant shall be returned</p><br>
                 </div>
                 <div style="display: flex;flex-wrap: wrap;gap: 4rem;">
                     <div>
-                        <p>(Signature of Applicant #1) <input type="text"style="width: 100px;"> (Date) <input type="text"style="width: 100px;"><br>
-                            Telephone: <input type="number"style="width: 355px;"><br>
+                        <p>(Signature of Applicant #1) <input type="text"style="width: 120px;"> (Date) <input type="text"style="width: 100px;"><br>
+                            Telephone: <input type="number"style="width: 343px;"><br>
                             Email Address: <input type="text"style="width: 330px;">
                         </p>
                     </div>
                     <div>
-                        <p>(Signature of Applicant #2) <input type="text"style="width: 100px;"> (Date) <input type="text"style="width: 100px;"><br>
-                            Telephone: <input type="number"style="width: 355px;"><br>
+                        <p>(Signature of Applicant #2) <input type="text"style="width: 120px;"> (Date) <input type="text"style="width: 100px;"><br>
+                            Telephone: <input type="number"style="width: 343px;"><br>
                             Email Address: <input type="text"style="width: 330px;">
                         </p>
                     </div>
