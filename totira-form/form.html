@@ -9,24 +9,25 @@
         input[type=text] {
             border: none;
             border-bottom: 1px dashed black ;
-    
+            outline: 0px;
         }
 
         input[type=number] {
             border: none;
             border-bottom: 1px dashed black ;
-
+            outline: 0px;
         }
 
         input[type=date] {
             border: none;
             border-bottom: 1px dashed black ;
+            outline: 0px;
 
         }
         
         p{
-            line-height:30px;
-            color: #231F20; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 9pt; margin:0pt;
+            
+            color: #231F20; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 9pt; 
          }
          h5{
             color: black; font-family:Arial, sans-serif; font-style: normal; font-weight: bold; text-decoration: none; font-size: 9pt;
@@ -34,8 +35,14 @@
          h1{
             color: #231F20; font-family:Arial, sans-serif; font-style: normal; font-weight: bold; text-decoration: none; font-size: 18pt;
          }
+         h2{
+            color: #231F20; font-family:Arial, sans-serif; font-style: normal; font-weight: bold; text-decoration: none; font-size: 15pt;
+         }
+         h3{
+            color: #231F20; font-family:Arial, sans-serif; font-style: normal; font-weight: bold; text-decoration: none; font-size: 15pt;
+         }
          
-        h4,h3,h2{
+        h4{
             /* line-height:50px; */
             flex-wrap: wrap;
             gap: 2.5rem;
@@ -53,8 +60,8 @@
                 -webkit-text-stroke: 0.05em transparent;
             }
             .header{
-                padding: 2rem;
-                width: 100%;
+
+                
                 height: 100%;
                 -webkit-text-stroke: 0.05em transparent;
             }
@@ -62,6 +69,7 @@
                 padding: 2rem;
                 width: 100%;
                 height: 100%;
+                display: inline-table;
                 -webkit-text-stroke: 0.05em transparent;
             }
          }
@@ -73,8 +81,7 @@
                 -webkit-text-stroke: 0.05em transparent;
             }
             .header{
-                padding: 2rem;
-                width: 100%;
+               
                 height: 100%;
                 -webkit-text-stroke: 0.05em transparent;
             }
@@ -82,6 +89,7 @@
                 padding: 2rem;
                 width: 100%;
                 height: 100%;
+                display: inline-table;
                 -webkit-text-stroke: 0.05em transparent;
             }
          }
@@ -93,14 +101,16 @@
                 -webkit-text-stroke: 0.05em transparent;
             }
             .header{
-                padding: 2rem;
-                width: 100%;
+
+
+
                 height: 100%;   
             }
             .forms{
                 padding: 2rem;
                 width: 100%;
                 height: 100%;
+                display: inline-table;
             }
 
          }
@@ -112,14 +122,14 @@
                 -webkit-text-stroke: 0.05em transparent;
             }
             .header{
-                padding: 2rem;
-                width: 100%;
+                
                 height: 100%;   
             }
             .forms{
                 padding: 2rem;
                 width: 100%;
                 height: 100%;
+                display: inline-table;
             }
 
          }
@@ -128,12 +138,12 @@
 <body >
     <section style="border: 10px;">
     
-        <form class="forms" style="padding-left:20%;padding-right:20%; margin: auto;"> 
+        <form class="forms" style="padding-left:10%; margin: auto;"> 
         
             <div>
-                <div class="header">
+                <div class="header"    style="width: 900px;">
                     <header>
-                        <div style=" padding-left:10px ; float:left;">
+                        <div style=" padding-left:0px ; float:left;">
                         
                             <div >
                                 <div style="width: 17%;"> 
@@ -166,45 +176,43 @@
                         <p style="text-indent:15px;">  Why are you vacating your present place of residence? <input type="text"style="width: 580px;"></p>
                 </div>
                 <div>
-                    <div style="display: flex;flex-wrap: wrap;gap: 4rem;">
+                    <div style="display: flex;gap: 4rem;">
                         <div >
                             <h4>APPLICANT #1 LAST TWO PLACES OF RESIDENCE </h4>
-                            <h5>Present Address <input type="text"style="width: 300px;"></h5><p>From <input type="text"style="width: 180px;"> To <input type="text"style="width: 180px;"><br>
-                                Name of Landlord <input type="text"style="width: 312px;"><br> Telephone <input type="number"style="width: 353px;"></p><h5> Prior Address<input type="text"style="width: 320px;"> </h5>
-                                <p>From <input type="text"style="width: 180px;"> To <input type="text"style="width: 180px;"><br>
-                                    Name of Landlord <input type="text"style="width: 312px;"><br> Telephone <input type="number"style="width: 353px;"></p>
+                            <h5>Present Address <input type="text"style="width: 310px;"></h5><p>From <input type="text"style="width: 180px;"> To <input type="text"style="width: 180px;"></p>
+                                <p>Name of Landlord <input type="text"style="width: 312px;"></p> <p>Telephone <input type="number"style="width: 353px;"></p><h5> Prior Address<input type="text"style="width: 330px;"> </h5>
+                                <p>From <input type="text"style="width: 180px;"> To <input type="text"style="width: 180px;"></p>
+                                    <p>Name of Landlord <input type="text"style="width: 312px;"></p><p> Telephone <input type="number"style="width: 353px;"></p>
                         </div>
                         <div >
                             <h4>APPLICANT #2 LAST TWO PLACES OF RESIDENCE </h4>
-                            <h5>Present Address <input type="text"style="width: 300px;"></h5><p>From <input type="text"style="width: 180px;"> To <input type="text"style="width: 180px;"><br>
-                                Name of Landlord <input type="text"style="width: 312px;"><br> Telephone <input type="number"style="width: 353px;"></p><h5> Prior Address<input type="text"style="width: 320px;"> </h5>
-                                <p>From <input type="text"style="width: 180px;"> To <input type="text"style="width: 180px;"><br>
-                                    Name of Landlord <input type="text"style="width: 312px;"><br> Telephone <input type="number"style="width: 353px;"></p>
+                            <h5>Present Address <input type="text"style="width: 310px;"></h5><p>From <input type="text"style="width: 180px;"> To <input type="text"style="width: 180px;"></p>
+                                <p>Name of Landlord <input type="text"style="width: 312px;"></p> <p>Telephone <input type="number"style="width: 353px;"></p><h5> Prior Address<input type="text"style="width: 330px;"> </h5>
+                                <p>From <input type="text"style="width: 180px;"> To <input type="text"style="width: 180px;"></p>
+                                    <p>Name of Landlord <input type="text"style="width: 312px;"></p><p> Telephone <input type="number"style="width: 353px;"></p>
                         </div>
                     </div>
-                    <div style="display: flex;flex-wrap: wrap;gap: 4rem;">
+                    <div style="display: flex;gap: 4rem;">
                         <div>
                             <h4>APPLICANT #1 PRESENT EMPLOYMENT</h4>
-                            <p>Employe <input type="text"style="width: 362px;"><br>
-                                Business address <input type="text"style="width: 313px;"><br>
-                                Business telephone <input type="number"style="width: 303px;"><br>
-                                Position held <input type="text"style="width: 335px;"><br>
-                                Length of employment <input type="text"style="width: 285px;"><br>
-                                Name of supervisor <input type="text"style="width: 303px;"><br>
-                                Current salary range: Monthly $ <input type="number"style="width: 238px;">
-                            </p>
+                            <p>Employe <input type="text"style="width: 362px;"></p>
+                            <p>Business address <input type="text"style="width: 313px;"></p>
+                            <p>Business telephone <input type="number"style="width: 303px;"></p>
+                            <p>Position held <input type="text"style="width: 335px;"></p>
+                            <p>Length of employment <input type="text"style="width: 285px;"></p>
+                            <p>Name of supervisor <input type="text"style="width: 303px;"></p>
+                            <p>Current salary range: Monthly $ <input type="number"style="width: 238px;"></p>
 
                         </div>
                         <div>
                             <h4>APPLICANT #2 PRESENT EMPLOYMENT</h4>
-                            <p>Employe <input type="text"style="width: 362px;"><br>
-                                Business address <input type="text"style="width: 313px;"><br>
-                                Business telephone <input type="number"style="width: 303px;"><br>
-                                Position held <input type="text"style="width: 335px;"><br>
-                                Length of employment <input type="text"style="width: 285px;"><br>
-                                Name of supervisor <input type="text"style="width: 303px;"><br>
-                                Current salary range: Monthly $ <input type="number"style="width: 238px;">
-                            </p>
+                            <p>Employe <input type="text"style="width: 362px;"></p>
+                            <p>Business address <input type="text"style="width: 313px;"></p>
+                            <p>Business telephone <input type="number"style="width: 303px;"></p>
+                            <p>Position held <input type="text"style="width: 335px;"></p>
+                            <p>Length of employment <input type="text"style="width: 285px;"></p>
+                            <p>Name of supervisor <input type="text"style="width: 303px;"></p>
+                            <p>Current salary range: Monthly $ <input type="number"style="width: 238px;"></p>
 
                         </div>
                     </div>
@@ -218,32 +226,30 @@
     </section>
     <section style="border: 10px;">
     
-        <form class="forms" style="padding-left:20%;padding-right:20%;">
+        <form class="forms" style="padding-left:10%;padding-right:20%;">
         
             <div>
-                <div style="display: flex;flex-wrap: wrap;gap: 4rem;">
+                <div style="display: flex;gap: 4rem;">
                     <div>
                         <h4>APPLICANT #1 PRESENT EMPLOYMENT</h4>
-                        <p>Employe <input type="text"style="width: 362px;"><br>
-                            Business address <input type="text"style="width: 313px;"><br>
-                            Business telephone <input type="number"style="width: 303px;"><br>
-                            Position held <input type="text"style="width: 335px;"><br>
-                            Length of employment <input type="text"style="width: 285px;"><br>
-                            Name of supervisor <input type="text"style="width: 303px;"><br>
-                            Salary range: $ <input type="number"style="width: 324px;">
-                        </p><br>
+                        <p>Employe <input type="text"style="width: 362px;"></p>
+                        <p>Business address <input type="text"style="width: 313px;"></p>
+                        <p>Business telephone <input type="number"style="width: 303px;"></p>
+                        <p>Position held <input type="text"style="width: 335px;"></p>
+                        <p>Length of employment <input type="text"style="width: 285px;"></p>
+                        <p>Name of supervisor <input type="text"style="width: 303px;"></p>
+                        <p>Salary range: $ <input type="number"style="width: 324px;"></p>
 
                     </div>
                     <div>
                         <h4>APPLICANT #2 PRESENT EMPLOYMENT</h4>
-                        <p>Employe <input type="text"style="width: 362px;"><br>
-                            Business address <input type="text"style="width: 313px;"><br>
-                            Business telephone <input type="number"style="width: 303px;"><br>
-                            Position held <input type="text"style="width: 335px;"><br>
-                            Length of employment <input type="text"style="width: 285px;"><br>
-                            Name of supervisor <input type="text"style="width: 303px;"><br>
-                            Salary range: $ <input type="number"style="width: 324px;">
-                        </p><br>
+                        <p>Employe <input type="text"style="width: 362px;"></p>
+                        <p>Business address <input type="text"style="width: 313px;"></p>
+                        <p>Business telephone <input type="number"style="width: 303px;"></p>
+                        <p>Position held <input type="text"style="width: 335px;"></p>
+                        <p>Length of employment <input type="text"style="width: 285px;"></p>
+                        <p>Name of supervisor <input type="text"style="width: 303px;"></p>
+                        <p>Salary range: $ <input type="number"style="width: 324px;"></p>
 
                     </div>
                 </div>
@@ -274,7 +280,7 @@
                           or making such other<br> use of the personal information as the Landlord and/or agent of the Landlord deems appropriate.</p><br>
                 </div>
                 <div>
-                    <p style="line-height: 20px;">The  Applicant  represents  that  all  statements  made  above  are  true  and  correct. <strong> The  Applicant  is  hereby  notied  that  a  consumer  report
+                    <p style="line-height: 20px;">The  Applicant  represents  that  all  statements  made  above  are  true  and  correct. <strong> The  Applicant  is  hereby  notied  that  consumer  report
                          containing <br>credit and/or personal information may be referred to in connection with this rental.</strong> The Applicant authorizes the verification 
                          of the <br>information contained in this application and information obtained from personal references. This application is not a Rental or Lease Agreement. In
                           the event that <br>this application is not accepted, any deposit submitted by the Applicant shall be returned</p><br>
